@@ -25,9 +25,9 @@ const menuCalculadora = async () => { //función principal del menú async para 
   console.log("2. Restar");
   console.log("3. Multiplicar");
   console.log("4. Dividir");
-  console.log("5. Potencia (no implementada)");
-  console.log("6. Raíz cuadrada (no implementada)");
-  console.log("7. Porcentaje (no implementada)");
+  console.log("5. Potencia");
+  console.log("6. Raíz cuadrada");
+  console.log("7. Porcentaje");
   console.log("8. Salir\n");
 
   const opcion = await preguntar("Selecciona una opción: "); //await para esperar la respuesta del usuario
