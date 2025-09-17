@@ -57,7 +57,7 @@ const menuCalculadora = async () => {// Función principal que muestra el menú 
       const { num1, num2 } = await pedirNumeros();
       resultado = num1 + num2;
       console.log(`✅ Resultado: ${num1} + ${num2} = ${resultado}`);
-      break;
+      break;mpn
     }
     case "2": {// Resta
       const { num1, num2 } = await pedirNumeros();
